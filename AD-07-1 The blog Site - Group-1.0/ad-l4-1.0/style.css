@@ -6,24 +6,31 @@
 
 html, body {
   height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(245, 243, 238);
 }
 
-/* Estilo del Header */
-
 .site-header {
-  position: relative;
   width: 100%;
-  height: auto;
+  background-color: #cfcfcf;
+  padding: 15px 0; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
 }
 
 .headerPic {
+<<<<<<< HEAD
   width: 100%;
   height: 20%;
   display: block;
+=======
+>>>>>>> contact-page
   text-align: center;
   background-color: white;
 }
 
+<<<<<<< HEAD
 body {
   display: flex;
   flex-direction: column;
@@ -42,51 +49,74 @@ body {
 
 #titulo1, #titulo2 {
   text-align: center;
+=======
+.header-image {
+  width: 450px;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+>>>>>>> contact-page
 }
 
 .header-list {
-  background-color: rgb(199, 202, 190);
-  color: rgb(8, 19, 10);
-  list-style: none;
-  padding: 10px;
   display: flex;
   justify-content: center;
+  background-color: #cfcfcf;
+  padding: 15px 0;
 }
 
 .header-list li {
-  margin: 0 10px;
+  margin: 0 15px;
 }
 
 .header-list a {
   text-decoration: none;
-  color: rgb(8, 19, 10);
+  color: #000;
+  font-size: 18px;
+  transition: color 0.3s;
 }
 
-.contenido1, .contenido2, .contenido3 {
-  background-color: rgb(229, 238, 200);
-  text-align: justify;
-  flex: 1;
-  padding: 20px;
+.header-list a:hover {
+  color: #007BFF;
 }
 
-/* Sección de descripción */
-.about-us {
-  text-align: center;
-  margin-bottom: 20px;
+.contenido1 {
+  padding: 40px 20px;
 }
 
-.about-us h1 {
-  font-size: 2em;
+h2 {
+  font-size: 24px;
   color: #333;
+  margin-bottom: 10px;
 }
 
-.about-us p {
-  font-size: 1.1em;
+p {
+  font-size: 16px;
+  line-height: 1.6;
   color: #555;
-  line-height: 1.5;
+  margin-bottom: 30px;
 }
 
-/* Sección del formulario */
+.footer {
+  background-color: rgb(199, 202, 190);
+  color: #333;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #0056b3;
+}
+
 .form-section {
   margin-top: 20px;
 }
@@ -101,6 +131,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .contact-form label {
@@ -129,11 +161,13 @@ button {
   font-size: 1em;
   cursor: pointer;
   transition: background-color 0.3s;
+  align-self: center;
 }
 
 button:hover {
   background-color: #0056b3;
 }
+<<<<<<< HEAD
 
 .nav-link {
   cursor: pointer;
@@ -151,3 +185,5 @@ button:hover {
   display: flex;
   flex-direction: column;
 }
+=======
+>>>>>>> contact-page
