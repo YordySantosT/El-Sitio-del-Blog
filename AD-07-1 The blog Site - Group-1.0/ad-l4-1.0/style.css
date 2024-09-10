@@ -12,8 +12,8 @@ html, body {
 
 .site-header {
   width: 100%;
-  background-color: rgb(red, green, blue); 
-  padding: 20px 0; 
+  background-color: #cfcfcf;
+  padding: 15px 0; 
   display: flex;
   justify-content: center; 
   align-items: center;
@@ -41,7 +41,7 @@ html, body {
 }
 
 .header-list li {
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .header-list a {
