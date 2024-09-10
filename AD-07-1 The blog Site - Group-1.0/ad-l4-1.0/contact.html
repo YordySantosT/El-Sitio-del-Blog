@@ -7,63 +7,59 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-<!------------------------- ESTE ES EL NAV BAR, COPIAR DESDE ESTE COMENTARIO HASTA EL SIGUIENTE COMENTARIO Y PEGAR EN CADA PAGINA--------------------------------> 
-<header id="header"></header>
-<h1 id="titulo1">Termos</h1>
-<nav id="nav-bar">
-  <ul class="header-list">
-    <li><a class="nav-link" href="index.html">Inicio</a></li>
-    <li><a class="nav-link" href="nosotros.html">¿Quienes somos?</a></li>
-    <li>
-      <a class="nav-link" href="contact.html">Contacto</a>
-    </li>
-  </ul>
-</nav>
-</header>
+    <div class="content-wrapper">
+      <!-- Nav Bar -->
+      <header id="header"></header>
+      <h1 id="titulo1">Termos</h1>
+      <nav id="nav-bar">
+        <ul class="header-list">
+          <li><a class="nav-link" href="index.html">Inicio</a></li>
+          <li><a class="nav-link" href="nosotros.html">¿Quienes somos?</a></li>
+          <li><a class="nav-link" href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
 
-<!--------------------------------------------------------COPIAR DE ESTE COMENTARIO HACIA ARRIBA------------------------------------------------------------------>
+      <div class="conteido3">
+        <section class="about-us">
+          <h1>¿Dudas e inquietudes?</h1>
+          <p>
+            ¡Hola! Si estás interesado en uno de nuestros productos y deseas más
+            información, por favor, rellena tus datos y nos pondremos en
+            contacto contigo:
+          </p>
+        </section>
 
-    <div class="conteido3">
-      <section class="about-us">
-        <h1>¿Dudas e inquietudes?</h1>
-        <p>
-          ¡Hola! Si estás interesado en uno de nuestros productos y deseas más
-          información, por favor, rellena tus datos y nos pondremos en contacto
-          contigo:
-        </p>
-      </section>
+        <!-- Formulario de contacto -->
+        <section class="form-section">
+          <h2>¿Preguntas? Te contactamos</h2>
+          <form action="#" method="POST" class="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required />
 
-      <!-- Formulario de contacto -->
-      <section class="form-section">
-        <h2>¿Preguntas? Te contactamos</h2>
-        <form action="#" method="POST" class="contact-form">
-          <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" required />
+            <label for="last name">Apellido:</label>
+            <input type="text" id="lastname" name="lastname" required />
 
-          <label for="last name">Apellido:</label>
-          <input type="text" id="lastname" name="lastname" required />
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required />
 
-          <label for="email">Correo:</label>
-          <input type="email" id="email" name="email" required />
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required />
 
-          <label for="phone">Teléfono:</label>
-          <input type="tel" id="phone" name="phone" required />
+            <label for="mensaje">Escribe tu mensaje:</label>
+            <input type="text" id="mensaje" name="mensaje" required />
 
-          <label for="mensaje">Escribe tu mensaje:</label>
-          <input type="text" id="mensaje" name="mensaje" required />
-
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+      </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Autores: Andrés, Carolina, Juan Pablo, Yordy</p>
+      <p>Contacto: termosstanley@generation.org</p>
+      <p>Generation Fullstack JAVA</p>
+      <p><a href="https://colombia.generation.org">Link a Generation COL</a></p>
+    </footer>
   </body>
-
-  <footer class="footer">
-    <p> Autores: Andrés, Carolina, Juan Pablo, Yordy </p>
-    <p> Contacto: termosstanley@generation.org </p>
-    <p> Generation Fullstack JAVA </p>
-    <p><a href="https://colombia.generation.org">Link a Generation COL</a></p>
-  </footer>
-
 </html>
